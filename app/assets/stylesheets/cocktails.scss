@@ -1,0 +1,58 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  position: relative;
+  width: 800px;
+  color: white;
+  margin: 0 auto;
+}
+
+.banner_text {
+  position: absolute;
+  top: 110px;
+  left: -190px;
+  margin: 0;
+}
+
+.banner_text p {
+  margin-bottom: 63px;
+}
+
+.banner_text a {
+  border: #32292F solid 1px;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #32292F;
+  color: white;
+  transition: ease-in-out 1s;
+}
+
+.banner_text a:hover {
+  background-color: #5E6572
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:  80px;
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+  box-shadow: 0,0,0,gray;
+  margin: 50px;
+}
+
+.cards img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #0D090A;
+}
+

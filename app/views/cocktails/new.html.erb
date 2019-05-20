@@ -1,0 +1,14 @@
+<div class="container">
+
+  <div>
+    <%= simple_form_for (@cocktail) do |t| %>
+      <%= t.input :name %>
+      <%= t.button :submit, "Add New Cocktail", placeholder: "Cocktail name", class:"btn btn-secondary" %>
+    <% end %>
+  </div>
+
+  <div>
+    <%= link_to "Back to Cocktails", cocktails_path  %>
+  </div>
+</div>
+
